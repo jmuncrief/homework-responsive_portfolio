@@ -40,30 +40,29 @@
         </header>
 
         <!-- Roow 2; form -->
-        <div class="row">
-            <div class="col md-12"></div>
+        <section class="row">
+            <div class="col-md-10">
+                <!-- Form -->
+                <form>
+                    <div class="form-group" alt="Enter Your Name">
+                        <label for="InputName">Name</label>
+                        <input type="name" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                    </div>
 
-            <!-- Form -->
-            <form>
-                <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    <div class="form-group" alt="Enter your email address">
+                        <label for="InputEmail">Email Address</label>
+                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-                    <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+
+                    <div class="form-group" alt="Enter your message">
+                        <label for="FormControlTextArea">Message</label>
+                        <textarea class="form-control" id="FormControlTextArea" rows="3"></textarea>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <div class="col-sm-10">
-                        <button type="submit" class="btn btn-primary">Sign in</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+        </section>
 
     </section>
 
