@@ -29,9 +29,5 @@
 }
 
 .background-image {
-    position: fixed;
-    z-index: 0;
-    left: 0px;
-    top: 0px;
     background-image: url(./assets/background_pattern.png)
 }
