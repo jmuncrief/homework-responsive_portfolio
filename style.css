@@ -1,3 +1,30 @@
 .custom-bg-70 {
     background-color: rgb(70, 70, 70);
 }
+
+.txtWhite {
+    color: rgb(200, 200, 200);
+}
+
+.main {
+    margin: 5%;
+    margin-right: 40%;
+    padding: 10px;
+    align-content: center;
+    background-color: rgb(100, 100, 100, .8);
+}
+
+.lens {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(70, 70, 70, .6);
+    z-index: 1;
+}
+
+.background-image {
+    position: fixed;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+    background-image: url(./assets/background_pattern.png)
+}
