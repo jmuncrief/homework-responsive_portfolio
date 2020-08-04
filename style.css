@@ -12,6 +12,12 @@
     border-radius: 3px;
 }
 
+.image-padding {
+    margin-bottom: 40px;
+    margin-left: 20px;
+    padding: 2px;
+}
+
 .main {
     margin: 5%;
     margin-right: 40%;
